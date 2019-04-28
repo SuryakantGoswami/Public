@@ -3,10 +3,4 @@
 3.) Git add
 4.) Git commit
 5.) Git puch
-modified file
-
-6.) Python
-
-add oprators
-type
-help
+6.) modified
