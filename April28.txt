@@ -4,6 +4,7 @@
 4.) Git commit
 5.) Git puch
 6.) Python
-add 
+
+add oprators
 type
 help
