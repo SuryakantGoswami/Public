@@ -1,0 +1,9 @@
+1) Git 
+2.) Git config
+3.) Git add
+4.) Git commit
+5.) Git puch
+6.) Python
+add 
+type
+help
