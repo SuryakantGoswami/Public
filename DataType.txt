@@ -1,0 +1,53 @@
+>>> a,b,c = 1,2,'Jon'
+>>> a
+1
+>>> b
+2
+>>> c
+'Jon'
+>>> id(a)
+8791276544656
+>>> id(b)
+8791276544688
+>>> id(c)
+50041160
+>>> list = [111,222,333,444,555]
+>>> list
+[111, 222, 333, 444, 555]
+>>> list(1)
+Traceback (most recent call last):
+  File "<pyshell#23>", line 1, in <module>
+    list(1)
+TypeError: 'list' object is not callable
+>>> list[1]
+222
+>>> list[1] = 100
+>>> list[1]
+100
+>>> list
+[111, 100, 333, 444, 555]
+>>> tuple = (100,200,300,400,500)
+>>> tuple
+(100, 200, 300, 400, 500)
+>>> tuple(1)
+Traceback (most recent call last):
+  File "<pyshell#30>", line 1, in <module>
+    tuple(1)
+TypeError: 'tuple' object is not callable
+>>> tuple[1]
+200
+>>> tuple[1] = 'tow hundred'
+Traceback (most recent call last):
+  File "<pyshell#32>", line 1, in <module>
+    tuple[1] = 'tow hundred'
+TypeError: 'tuple' object does not support item assignment
+>>> tuple[1] = 555
+Traceback (most recent call last):
+  File "<pyshell#33>", line 1, in <module>
+    tuple[1] = 555
+TypeError: 'tuple' object does not support item assignment
+>>> tuple
+(100, 200, 300, 400, 500)
+>>> tuple(1) = 555
+SyntaxError: can't assign to function call
+>>> 
