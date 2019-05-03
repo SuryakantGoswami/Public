@@ -1,17 +1,19 @@
->>> a,b,c = 1,2,'Jon'
+>>> a = b = c = 1                      # Single value to servale variables
+
+>>> a,b,c = 1,2,'Jon'                  # multiple Assigment
 >>> a
 1
 >>> b
 2
 >>> c
 'Jon'
->>> id(a)
+>>> id(a)                         # memory location
 8791276544656
 >>> id(b)
 8791276544688
 >>> id(c)
 50041160
->>> list = [111,222,333,444,555]
+>>> list = [111,222,333,444,555]                # it is used to enclosed in brakets []
 >>> list
 [111, 222, 333, 444, 555]
 >>> list(1)
@@ -21,12 +23,12 @@ Traceback (most recent call last):
 TypeError: 'list' object is not callable
 >>> list[1]
 222
->>> list[1] = 100
+>>> list[1] = 100                            # it is update
 >>> list[1]
 100
 >>> list
 [111, 100, 333, 444, 555]
->>> tuple = (100,200,300,400,500)
+>>> tuple = (100,200,300,400,500)          # its same to list but it is used to enclosed in parentheses()
 >>> tuple
 (100, 200, 300, 400, 500)
 >>> tuple(1)
@@ -41,7 +43,7 @@ Traceback (most recent call last):
   File "<pyshell#32>", line 1, in <module>
     tuple[1] = 'tow hundred'
 TypeError: 'tuple' object does not support item assignment
->>> tuple[1] = 555
+>>> tuple[1] = 555                                           # tuple is not updated
 Traceback (most recent call last):
   File "<pyshell#33>", line 1, in <module>
     tuple[1] = 555
