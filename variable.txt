@@ -1,0 +1,47 @@
+Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> name = 'youtube'
+>>> name
+'youtube'
+>>> name + 'rock'
+'youtuberock'
+>>> name + \n 'rock'
+SyntaxError: unexpected character after line continuation character
+>>> name + \n'rock'
+SyntaxError: unexpected character after line continuation character
+>>> name[0]
+'y'
+>>> name[6]
+'e'
+>>> name[-1]
+'e'
+>>> name[-6]
+'o'
+>>> name[-7]
+'y'
+>>> name[0:3]
+'you'
+>>> name[1:5]
+'outu'
+>>> name[0:]
+'youtube'
+>>> name[:0]
+''
+>>> name[:3]
+'you'
+>>> name[3:]
+'tube'
+>>> name[0] = 'R'  # Python do not change the value of strings
+Traceback (most recent call last):
+  File "<pyshell#16>", line 1, in <module>
+    name[0] = 'R'  # Python do not change the value of strings
+TypeError: 'str' object does not support item assignment
+>>> 'My'+name[3:]
+'Mytube'
+>>> myname = 'Suryakant'
+>>> len(myname)
+9
+>>> surname = 'Goswami'
+>>> len(surname)
+7
+>>> 
