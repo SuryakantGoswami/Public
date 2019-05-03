@@ -1,0 +1,67 @@
+>>> dict = {}
+>>> dict
+{}
+>>> dict['One'] = "This is one"
+>>> dict['One']
+'This is one'
+>>> dict[2] = "This is two"
+>>> dict[2]
+'This is two'
+>>> dict(2) = "This is two"
+SyntaxError: can't assign to function call
+>>> alldict = {'name': 'john','code':12345, 'sales'}
+SyntaxError: invalid syntax
+>>> alldict = {'name': 'john','code':12345, 'dept': 'sales'}
+>>> alldict
+{'name': 'john', 'code': 12345, 'dept': 'sales'}
+>>> alldict.key()
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    alldict.key()
+AttributeError: 'dict' object has no attribute 'key'
+>>> alldict.keys()
+dict_keys(['name', 'code', 'dept'])
+>>> alldict.values()
+dict_values(['john', 12345, 'sales'])
+>>> dict[1]
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    dict[1]
+KeyError: 1
+>>> aa = 10
+>>> type(aa)
+<class 'int'>
+>>> float(aa)
+10.0
+>>> type(aa)
+<class 'int'>
+>>> 'Surya'
+'Surya'
+>>> print('Surya')
+Surya
+>>> print('Surya's laptop')
+      
+SyntaxError: invalid syntax
+>>> print("Surya's laptop")
+Surya's laptop
+>>> print('Surya "laptop"')
+Surya "laptop"
+>>> print ('Surya's "laptop"')
+       
+SyntaxError: invalid syntax
+>>> print('Surya\'s "laptop"')
+Surya's "laptop"
+>>> 'Surya'+'Surya'
+'SuryaSurya'
+>>> 10*'Surya'
+'SuryaSuryaSuryaSuryaSuryaSuryaSuryaSuryaSuryaSurya'
+>>> print ('c:\docs\surya')
+c:\docs\surya
+>>> print('c:\$1Recycle.Bin')
+c:\$1Recycle.Bin
+>>> print('c:\docs\nSurya')
+c:\docs
+Surya
+>>> print (r'c:\docs\nSurya')   # row string
+c:\docs\nSurya
+>>> 
