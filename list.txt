@@ -1,0 +1,52 @@
+#List : list is a mutable sequence of data values.
+#all data in list we called it as element or item.
+
+#Empty List:
+cust_num = list()
+
+cust_num = []
+
+#list of integers
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+#Print
+my_list
+
+#List can hold different object type.
+my_list = [1,'abc',2.2]
+
+#Accessing values using indexing and slicing
+avengers = ['black panther', 'doctor strange', 'captain america', 'hulk', 'thanos']
+
+avengers[0]
+
+avengers[1]
+
+avengers[:3]
+
+avengers[::]
+
+avengers[::-1]
+
+#Updating values in list 
+avengers[3] = 'HULK'
+
+#Updating values in list 
+avengers[3:5] = ['hulk','THANOS']
+
+#Add new element/item in list
+avengers = avengers+[ 'thor']
+
+#Delete specific element from list
+del avengers[4]
+
+del avengers[3:]
+
+
+#Find element in list use in operator
+if thor in avengers:
+	print("Thor is in end game")
+
+#List Functions: [len, max, min, cmp]
+
+#List method: [append(), extend(), count('element'), index('element'), insert(1,'element'), pop(2), remove('element'), sort(), reverse()]
