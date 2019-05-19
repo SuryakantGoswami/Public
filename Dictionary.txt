@@ -1,0 +1,52 @@
+#Dictionary: is a key-value pair.
+
+#Syntax:
+dictionary_name = {key:value}
+
+employee_details = {'id':1 , 'name': 'Abhi', 'dept':'IT'}
+
+#Access element with key
+employee_details['1']
+
+#deleting element from list
+employee_details['id']
+
+#delete dictionary
+del employee_details
+
+#delete spcific key from dictionary
+del employee_details['id']
+
+#add new key value pair in dictionary
+employee_details['eid'] = 101
+
+#Update any value from dictionary
+employee_details['dept'] = 'HR'
+
+len(employee_details)
+
+#copy the dictionary # Diff. copy and assignee
+sample_employee_details = employee_details.copy()
+
+#get()  fatch the value in dictionary
+sample_employee_details.get('id')
+
+#has_key() : used to check given key is in dictionary or not it will return bollen value # is not availbe in python 3, 
+'id' in employee_details
+employee_details.has_key('id') # it is no used in python 3
+
+#items(): it will return key, value in tuple form
+employee_details.items()
+
+#keys(): print all keys from dictionary
+employee_details.keys()
+
+#values(): print all values from dictionary
+employee_details.values()
+
+#update(): update key values from one dictionary to another
+a = {'a':1,'b':2}
+
+b = {'a':10,'c':3}
+
+a.update(b)
