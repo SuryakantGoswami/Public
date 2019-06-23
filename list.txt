@@ -50,3 +50,15 @@ if thor in avengers:
 #List Functions: [len, max, min, cmp]
 
 #List method: [append(), extend(), count('element'), index('element'), insert(1,'element'), pop(2), remove('element'), sort(), reverse()]
+
+
+
+# find string length
+
+list = ["Suryakant", "Goswami"]
+len(list)
+output - 2
+
+for strw in list:
+    print(strww, "=", len(strw))
+
