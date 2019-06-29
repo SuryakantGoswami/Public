@@ -1,5 +1,5 @@
 num = int(input("Enter the Number: "))
-def even_odd(num):
+def even_odd(num): #function define for even odd
     if num%2==0:
         print("Even",num)
     else:
